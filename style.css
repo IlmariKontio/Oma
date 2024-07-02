@@ -1,8 +1,6 @@
-
 .font-8bit {
     font-family: 'Press Start 2P', cursive;
 }
-
 
 .playwrite-ng-modern {
     font-family: "Playwrite NG Modern", cursive;
@@ -32,11 +30,11 @@
     font-variation-settings:
       "wdth" 100;
   }
-  
 
 .hero-color{
     background: linear-gradient(to right, #B4A449, #ffffff);
 }
+
 .white-background{
     background-color: white;
 }
@@ -48,7 +46,6 @@
     height: 100vh;
     gap: 20px;
     flex-direction: column;
-
   }
 
   .career-container{
@@ -72,7 +69,6 @@
     text-align: center;
 }
 
-
 .custom-btn {
   display: flex;
   justify-content: center;
@@ -90,7 +86,6 @@
   background-color: #ff0;
 }
 
-
 .rounded-circle {
   border-radius: 50%;
 }
@@ -98,10 +93,9 @@
 .background-image{
   background: url(./Assets/Media.png) no-repeat center center fixed;
   background-size: cover;
-
 }
-.bg-white
- {
+
+.bg-white {
   background-color: white;
 }
 
@@ -115,6 +109,7 @@
     background: linear-gradient(#B4A449, #ffffff);
 }
 }
+
 @media (min-width: 1400px)  
 {
   .maxwidht
