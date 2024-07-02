@@ -1,2 +1,2 @@
-# Oma
-Homepage
+# CSS-training
+Porfolio
