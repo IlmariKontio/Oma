@@ -1,0 +1,126 @@
+
+.font-8bit {
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+.playwrite-ng-modern {
+    font-family: "Playwrite NG Modern", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    color: white;
+    text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  }
+
+  .montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .noto-serif {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+
+.hero-color{
+    background: linear-gradient(to right, #B4A449, #ffffff);
+}
+.white-background{
+    background-color: white;
+}
+
+.bio-container{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+    flex-direction: column;
+
+  }
+
+  .career-container{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-direction: row;
+  }
+
+  .career-img {
+    height: 100px;
+    border-radius: 150%;
+  }
+
+  .yellow-filter {
+    filter: sepia(20) saturate(2) hue-rotate(10deg);
+}
+
+.bio-text {
+    text-align: center;
+}
+
+
+.custom-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem 1.5rem; /* Adjust as needed */
+  text-align: center;
+  width: 100%;
+}
+
+.img-fluid {
+  max-width: 50%;
+}
+
+.bg-yellow {
+  background-color: #ff0;
+}
+
+
+.rounded-circle {
+  border-radius: 50%;
+}
+
+.background-image{
+  background: url(./Assets/Media.png) no-repeat center center fixed;
+  background-size: cover;
+
+}
+.bg-white
+ {
+  background-color: white;
+}
+
+@media (min-width: 50px) and (max-width: 767px)
+{
+
+.vh-50 {
+    height: 50vh;
+}
+.hero-color{
+    background: linear-gradient(#B4A449, #ffffff);
+}
+}
+@media (min-width: 1400px)  
+{
+  .maxwidht
+  {
+    width: 1140px;
+    margin-left: 75px;
+
+  }
+}
