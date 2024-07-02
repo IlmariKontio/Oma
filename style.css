@@ -82,6 +82,29 @@
   width: 100%;
 }
 
+.img-fluid {
+  max-width: 50%;
+}
+
+.bg-yellow {
+  background-color: #ff0;
+}
+
+
+.rounded-circle {
+  border-radius: 50%;
+}
+
+.background-image{
+  background: url(./Assets/Media.png) no-repeat center center fixed;
+  background-size: cover;
+
+}
+.bg-white
+ {
+  background-color: white;
+}
+
 @media (min-width: 50px) and (max-width: 767px)
 {
 
@@ -91,4 +114,13 @@
 .hero-color{
     background: linear-gradient(#B4A449, #ffffff);
 }
+}
+@media (min-width: 1400px)  
+{
+  .maxwidht
+  {
+    width: 1140px;
+    margin-left: 75px;
+
+  }
 }
